@@ -106,8 +106,11 @@ body {
 
 .payment {
     background-color: var(--Bright-blue);
+    border: none;
     border-radius: 8px;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.322);
     color: #fff;
+    cursor: pointer;
     font-size: 0.7rem;
     font-weight: 700;
     margin-top: 10px;
@@ -115,6 +118,11 @@ body {
     height: 40px;
     width: 100%;
     text-align: center;
+    text-decoration: none;
+}
+
+.payment a {
+    color: #fff;
     text-decoration: none;
 }
 
